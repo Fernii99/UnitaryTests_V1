@@ -1,0 +1,16 @@
+{
+  "name": "jestframeworktest",
+  "version": "1.0.0",
+  "description": "Node JS & JEST TUTORIAL",
+  "main": "index.js",
+  "scripts": {
+    "start": " node src/index.js",
+    "dev": "env-cmd ./config/dev.emv nodemon src/index.js",
+    "test": "jest"
+  },
+  "author": "Asier Fernandez ",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
